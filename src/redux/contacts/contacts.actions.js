@@ -5,7 +5,7 @@ import { tokenConfig } from '../auth/auth.actions'
 import { returnErrors } from "../error/error.actions";
 
 const axiosInstance = axios.create({
-  baseURL: 'http://okaziyo-server.herokuapp.com',
+  baseURL: 'https://okaziyo-server.herokuapp.com',
 });
 
 // dispatch(action)

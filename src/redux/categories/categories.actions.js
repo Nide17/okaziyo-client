@@ -4,7 +4,7 @@ import { GET_CATEGORIES, GET_CATEGORIES_FAIL, CREATE_CATEGORY, CREATE_CATEGORY_F
 import { tokenConfig } from '../auth/auth.actions'
 
 const axiosInstance = axios.create({
-  baseURL: 'http://okaziyo-server.herokuapp.com',
+  baseURL: 'https://okaziyo-server.herokuapp.com',
 });
 
 // View all categories
