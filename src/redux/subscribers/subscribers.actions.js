@@ -6,7 +6,7 @@ import { returnErrors } from "../error/error.actions";
 
 
 const axiosInstance = axios.create({
-  baseURL: 'http://okaziyo-server.herokuapp.com/',
+  baseURL: 'http://okaziyo-server.herokuapp.com',
 });
 
 // dispatch(action)

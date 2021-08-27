@@ -6,7 +6,7 @@ import {
 import { tokenConfig } from '../auth/auth.actions'
 
 const axiosInstance = axios.create({
-  baseURL: 'http://okaziyo-server.herokuapp.com/',
+  baseURL: 'http://okaziyo-server.herokuapp.com',
 });
 
 // View all jobs
