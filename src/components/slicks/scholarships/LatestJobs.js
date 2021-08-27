@@ -24,7 +24,7 @@ const LatestJobs = ({ allActiveJobs }) => {
                     <Media body className="w-100">
                         <Media heading className="p-2 py-lg-0 mb-0 h-100 d-flex flex-column justify-content-between">
                             <p className="text-info mt-0 mb-2">
-                                <a href={`/slickJob/${job._id}`}>{job.title}</a>
+                                <a href={`/slickJob/${job.slug}`}>{job.title}</a>
                             </p>
 
                             <div className="d-flex flex-column flex-lg-row justify-content-between text-secondary m-0">

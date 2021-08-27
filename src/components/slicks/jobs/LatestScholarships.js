@@ -26,7 +26,7 @@ const LatestScholarships = ({ allActiveScholarships }) => {
                         <Media body className="w-100">
                             <Media heading className="p-2 py-lg-0 mb-0 h-100 d-flex flex-column justify-content-between">
                                 <p className="text-info mt-0 mb-2">
-                                    <a href={`/slickScholarship/${scholarship._id}`}>{scholarship.title}</a>
+                                    <a href={`/slickScholarship/${scholarship.slug}`}>{scholarship.title}</a>
                                 </p>
 
                                 <div className="d-flex flex-column flex-lg-row justify-content-between text-secondary m-0">
