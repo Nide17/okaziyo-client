@@ -51,7 +51,7 @@ const Footer = () => {
             <div className="row footerSocial">
 
                 <div className="col-12 col-xl-6 copyright">
-                    <p>&copy; Okaziyo, Ltd. 2021. Browse, Buy & Sell comfortably!</p>
+                    <p>&copy; Elysium Group Ltd. 2021. Browse, Buy & Sell comfortably!</p>
                 </div>
                 <div className="col-12 col-xl-6 icons px-0">
                     <h6 className="text-center">Follow us</h6>
